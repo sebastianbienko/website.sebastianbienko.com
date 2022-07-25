@@ -1,5 +1,5 @@
 import React from "react";
-import { Root } from "./skills.styles";
+import { Root, SvgLogoContainer } from "./skills.styles";
 import Tile from "./tile/tile";
 import { RiCodeSSlashLine, RiPencilRuler2Line } from "react-icons/ri";
 import SitecoreIcon from "../../images/icons/sitecore_thick.svg";
@@ -13,9 +13,8 @@ import Image from "next/image";
 const Skills = () => {
   const sitecoreIcon = (
     <Image
-      width="4em"
-      height="4em"
-      layout="fixed"
+      layout="fill"
+      objectFit="contain"
       src={SitecoreIcon}
       alt="Sitecore Icon"
     />
@@ -30,7 +29,7 @@ const Skills = () => {
         skills={netSkillList}
       />
       <Tile
-        icon={sitecoreIcon}
+        icon={<SvgLogoContainer>{sitecoreIcon}</SvgLogoContainer>}
         title="Sitecore development"
         subtitle="I am comfortable with all aspects of Sitecore development and architecture."
         skills={sitecoreSkillList}
