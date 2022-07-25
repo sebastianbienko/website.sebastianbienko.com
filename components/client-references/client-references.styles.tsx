@@ -32,6 +32,7 @@ export const ReferenceImageContainer = styled.div`
   display: block;
   padding: 3rem;
   margin: 0 2rem;
+  position: relative;
 `;
 
 export const ReferenceImage = styled(Image)``;
