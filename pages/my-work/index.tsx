@@ -1,7 +1,7 @@
 import React from "react";
 import { Paragraph, Quote, ClientReferences } from "../../components";
-import { Inner } from "../global.styles";
-import { Root } from "./index.styles";
+import { Inner } from "../../layout/global.styles";
+import { Root } from "../../layout/my-work.styles";
 
 const MyWork = () => (
   <React.Fragment>

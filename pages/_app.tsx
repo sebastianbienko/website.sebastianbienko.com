@@ -1,13 +1,12 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
-import { MenuWrapper, Root, SloganWrapper } from './global.styles'
-import { Menu, Slogan } from '../components'
+import "../styles/globals.css";
+import type { AppProps } from "next/app";
+import { MenuWrapper, Root, SloganWrapper } from "../layout/global.styles";
+import { Menu, Slogan } from "../components";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Root>
       <Component {...pageProps} />
-
 
       <SloganWrapper>
         <Slogan />
@@ -16,8 +15,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Menu />
       </MenuWrapper>
     </Root>
-  )
-
+  );
 }
 
-export default MyApp
+export default MyApp;

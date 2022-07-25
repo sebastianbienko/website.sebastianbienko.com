@@ -1,6 +1,6 @@
 import React from "react";
 import { Skills } from "../../components";
-import { Root } from "./index.styles";
+import { Root } from "../../layout/services.styles";
 
 const Services = () => (
   <Root wide>

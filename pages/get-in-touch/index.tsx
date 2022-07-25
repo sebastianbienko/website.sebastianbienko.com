@@ -1,7 +1,7 @@
 import React from "react";
-import { Root } from "./index.styles";
+import { Root } from "../../layout/get-in-touch.styles";
 import { SocialLinks, ContactInformation } from "../../components";
-import { Inner } from "../global.styles";
+import { Inner } from "../../layout/global.styles";
 
 const GetInTouch = () => (
   <Inner>
