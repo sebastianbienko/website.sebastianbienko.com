@@ -44,11 +44,13 @@ export const Corner = styled.div<TilePositioningProps>`
 
 export const Title = styled.h2`
   text-align: center;
-  font-size: 1.5rem;
-  font-family: "Nunito";
+  font-size: 1.25rem;
+  font-family: "parisine-std-clair";
   line-height: 1.2rem;
   justify-self: flex-start;
   padding: 0 1rem;
+  font-weight: 400;
+  opacity: 0.75;
 `;
 
 export const SubTitle = styled.div`
@@ -90,10 +92,10 @@ export const SkillsContainer = styled.div`
 `;
 
 export const Skill = styled.span<TileSkillsProps>`
-  font-family: "Nunito";
-  font-weight: 400;
-  font-size: ${(props) => "calc(1.2rem * " + props.factor + ")"};
-  color: rgba(0, 0, 0, 0.3);
+  font-family: "turnip-re";
+  font-weight: 200;
+  font-size: ${(props) => "calc(1rem * " + props.factor + ")"};
+  color: rgba(0, 0, 0, 0.75);
   padding: 0.5rem 0.75rem;
   position: relative;
 `;

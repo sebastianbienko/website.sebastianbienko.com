@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { fontTypes } from "../theme";
 
 export const Root = styled.div`
   padding: 0.5rem 0rem 1.5rem 0rem;
@@ -8,7 +9,7 @@ export const Blockquote = styled.blockquote`
   text-align: center;
 
   > p {
-    font-family: "Nunito";
+    font-family: ${fontTypes.mainTextFontType};
     font-size: 1.5rem;
     line-height: 1.5rem;
     font-weight: 200;
@@ -18,7 +19,7 @@ export const Blockquote = styled.blockquote`
   }
 
   > footer {
-    font-family: "Nunito";
+    font-family: ${fontTypes.mainTextFontType};
     float: right;
     font-weight: 200;
     max-width: 50%;

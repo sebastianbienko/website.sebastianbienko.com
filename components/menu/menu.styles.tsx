@@ -1,9 +1,10 @@
 import styled from "styled-components";
+import { fontTypes } from "../theme";
 
 // Props
 
 interface ListEntryProps {
-    active?: boolean
+  active?: boolean;
 }
 
 // Styles
@@ -23,15 +24,15 @@ export const List = styled.ul`
 
 export const ListEntry = styled.li<ListEntryProps>`
   margin: 0.5rem 1rem;
-  font-weight: ${props => props.active ? "bold" : "300"};
+  font-weight: ${(props) => (props.active ? "700" : "400")};
   cursor: pointer;
 
   > a {
     margin-left: 0.25rem;
-    font-family: "Nunito";
+    font-family: ${fontTypes.menuFontType};
     text-decoration: none;
     color: black;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 `;
 

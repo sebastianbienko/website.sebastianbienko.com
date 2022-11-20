@@ -20,7 +20,7 @@ export const Line = styled.div`
 
   > div {
     width: 100%;
-    height: 0.1rem;
+    height: 1px;
     background: black;
   }
 `;

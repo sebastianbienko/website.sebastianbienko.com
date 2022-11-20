@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import TypedWrapper from "../typed-wrapper/typed-wrapper";
-import Image from 'next/image'
-
+import Image from "next/image";
 
 export const Root = styled.div`
   display: flex;
@@ -24,6 +23,7 @@ export const ElementContainerBase = styled.div`
 
 export const ImageContainer = styled(ElementContainerBase)`
   margin-bottom: 2rem;
+  max-width: 25rem;
   @media screen and (min-width: 75rem) {
     margin-bottom: 0;
   }
@@ -46,7 +46,7 @@ export const Text = styled.p`
 export const Typewriter = styled(TypedWrapper)`
   text-align: center;
   font-family: "Nunito", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 0.8rem;
   line-height: 1.3rem;
   color: black;
@@ -71,6 +71,6 @@ export const Typewriter = styled(TypedWrapper)`
   }
 
   strong {
-    font-weight: 900;
+    font-weight: 800;
   }
 `;

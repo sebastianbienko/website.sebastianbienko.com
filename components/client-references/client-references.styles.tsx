@@ -5,10 +5,11 @@ export const Root = styled.div`
   margin-top: 2rem;
 
   > h2 {
-    opacity: 0.25;
-    font-family: "Nunito";
-    font-weight: 600;
+    opacity: 0.75;
+    font-family: parisine-std-clair;
+    font-weight: 400;
     font-size: 1.25rem;
+    font-style: normal;
   }
 `;
 
@@ -23,7 +24,7 @@ export const References = styled.div`
 export const Reference = styled.div`
   min-width: 25%;
   display: inline-block;
-  opacity: 0.5;
+  opacity: 0.65;
   margin-top: 2rem;
 `;
 
