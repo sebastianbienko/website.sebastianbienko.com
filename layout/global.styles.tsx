@@ -44,11 +44,23 @@ export const SloganWrapper = styled.div`
 
 export const MenuWrapper = styled.div`
   width: 100vw;
+  height: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow: hidden;
+  padding: 0;
+`;
+
+export const FooterWrapper = styled.div`
+  height: 2rem;
   position: fixed;
   bottom: 0;
   left: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  right: 0;
   background-color: white;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
 `;
