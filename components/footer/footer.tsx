@@ -72,7 +72,7 @@ const ListEntry = styled.li<ListEntryProps>`
     font-family: "Nunito";
     text-decoration: none;
     color: black;
-    font-size: 1.1rem;
+    font-size: 0.85rem;
     height: 100%;
     width: 100%;
   }

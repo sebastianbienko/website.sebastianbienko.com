@@ -9,13 +9,13 @@ import SocialLinks from "./social-links/social-links";
 import ContactInformation from "./contact-information/contact-information";
 
 export {
-    Welcome,
-    Slogan,
-    Menu,
-    Paragraph,
-    Quote,
-    ClientReferences,
-    Skills,
-    SocialLinks,
-    ContactInformation,
+  Welcome,
+  Slogan,
+  Menu,
+  Paragraph,
+  Quote,
+  ClientReferences,
+  Skills,
+  SocialLinks,
+  ContactInformation,
 };

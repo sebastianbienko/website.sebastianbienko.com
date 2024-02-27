@@ -1,6 +1,6 @@
 export const routes = [
   {
-    title: "Start",
+    title: "Intro",
     pathname: "/",
   },
   {
