@@ -1,12 +1,8 @@
 export const routes = [
   {
-    title: "Privacy Notice",
-    pathname: "/privacy-notice",
-  },
-  {
-    title: "Legal Notice",
-    pathname: "/legal-notice",
-  },
+    title: "Privacy / Legal Notice",
+    pathname: "/privacy-and-legal-notice",
+  }
 ];
 
 export const title = "Sebastian Bienko";

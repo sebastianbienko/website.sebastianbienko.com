@@ -27,6 +27,9 @@ export const ImageContainer = styled(ElementContainerBase)`
   @media screen and (min-width: 75rem) {
     margin-bottom: 0;
   }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 `;
 
 export const TextContainer = styled(ElementContainerBase)`
@@ -36,7 +39,7 @@ export const TextContainer = styled(ElementContainerBase)`
 
 export const ProfileImage = styled(Image)`
   width: 100%;
-  max-width: 35rem;
+  max-width: 30rem !important;
 `;
 
 export const Text = styled.p`

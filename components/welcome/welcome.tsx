@@ -14,7 +14,7 @@ const Welcome = () => (
             <ProfileImage
                 src={require("../../images/profile_image.jpg")}
                 alt="profile_image"
-                layout="intrinsic"
+                layout="responsive"
             />
         </ImageContainer>
         <TextContainer>

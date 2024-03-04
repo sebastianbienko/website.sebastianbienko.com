@@ -17,12 +17,6 @@ const SocialLinks = () => (
             >
                 <RiXingLine size="2em" />
             </SocialIconLinkWrapper>
-            <SocialIconLinkWrapper
-                href={"https://github.com/sebastianbienko"}
-                target="_blank"
-            >
-                <RiGithubLine size="2em" />
-            </SocialIconLinkWrapper>
         </Inner>
     </Root>
 );

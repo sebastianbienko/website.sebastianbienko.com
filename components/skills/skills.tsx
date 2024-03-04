@@ -24,19 +24,13 @@ const Skills = () => {
     <Root>
       <Tile
         icon={<RiCodeSSlashLine size="4em" />}
-        title=".NET development"
+        title="Software engineering"
         subtitle="I like building well structured back-end systems at scale."
         skills={netSkillList}
       />
       <Tile
-        icon={<SvgLogoContainer>{sitecoreIcon}</SvgLogoContainer>}
-        title="Sitecore development"
-        subtitle="I am comfortable with all aspects of Sitecore development and architecture."
-        skills={sitecoreSkillList}
-      />
-      <Tile
         icon={<RiPencilRuler2Line size="4em" />}
-        title="Frontend development"
+        title="Solution architecture"
         subtitle="Bringing beautiful designs to life is most enjoyable to me when combined with a very interactive UI."
         skills={frontendSkillList}
       />

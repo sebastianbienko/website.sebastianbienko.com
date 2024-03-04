@@ -60,7 +60,8 @@ const Root = styled.div<MenuEntryProps>`
   height: 2rem;
   line-break: strict;
   flex-wrap: nowrap;
-  min-width: 150px;
+  white-space: nowrap;
+  padding-right: 1.5rem;
 
   > a {
     display: inline-block;
@@ -71,5 +72,6 @@ const Root = styled.div<MenuEntryProps>`
     font-size: 1.1rem;
     height: 100%;
     width: 100%;
+    white-space: nowrap;
   }
 `;

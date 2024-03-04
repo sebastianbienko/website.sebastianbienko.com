@@ -10,7 +10,7 @@ const Footer = () => {
   const pathname = useRouter()?.pathname;
   const menuEntries = routes.map((entry, index) => (
     <ListEntry key={index} active={pathname === entry.pathname}>
-      <Link href={entry.pathname}>{entry.title}</Link>
+      <Link href={entry.pathname}>{entry.title}</Link> 
     </ListEntry>
   ));
 
@@ -39,17 +39,21 @@ const Root = styled.div`
   position: relative;
   border-top: 1px solid black;
   left: 0;
-  padding-top: 2px;
+  height: 100%;
 `;
 
-const Title = styled.span`
-  @media only screen and (max-width: 500px) {
+const Title = styled.div`
+  @media only screen and (max-width: 21rem) {
     visibility: hidden;
     display: none;
   }
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-weight: bold;
-  padding: 0 1rem;
+  padding-right: 1rem;
+  height: 100%;
 `;
 
 const List = styled.ul`
@@ -59,21 +63,21 @@ const List = styled.ul`
 `;
 
 const ListEntry = styled.li<ListEntryProps>`
-  display: inline;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
   position: relative;
   font-weight: ${(props) => (props.active ? "bold" : "300")};
   cursor: pointer;
   line-break: strict;
   flex-wrap: nowrap;
+  height: 100%;
 
   > a {
-    display: inline-block;
-    padding: 0 1rem;
-    font-family: "Nunito";
-    text-decoration: none;
-    color: black;
-    font-size: 0.85rem;
-    height: 100%;
-    width: 100%;
-  }
+      padding-left: 1rem;
+      font-family: "Nunito";
+      text-decoration: none;
+      color: black;
+      font-size: 0.85rem;
+    }
 `;
