@@ -1,6 +1,6 @@
 import { TileSkillData } from "./tile/tile.models";
 
-export const netSkillList: TileSkillData[] = [
+export const backendDevelopmentSkillList: TileSkillData[] = [
   {
     value: "S.O.L.I.D.",
     factor: 1,
@@ -12,23 +12,13 @@ export const netSkillList: TileSkillData[] = [
     },
   },
   {
-    value: ".NET Core",
+    value: ".NET",
     factor: 0.8,
     margins: {
       marginTop: 0,
       marginBottom: "-0.38em",
       marginLeft: "-0.03em",
       marginRight: 0,
-    },
-  },
-  {
-    value: "ASP.NET MVC",
-    factor: 0.8,
-    margins: {
-      marginTop: "-0.07em",
-      marginBottom: 0,
-      marginLeft: 0,
-      marginRight: "-0.22em",
     },
   },
   {
@@ -82,17 +72,37 @@ export const netSkillList: TileSkillData[] = [
     },
   },
   {
-    value: ".NET Framework",
-    factor: 0.8,
+    value: "C#",
+    factor: 2,
     margins: {
-      marginTop: 0,
-      marginBottom: "-0.04em",
-      marginLeft: "-0.27em",
-      marginRight: 0,
+      marginTop: "-0.37em",
+      marginBottom: 0,
+      marginLeft: 0,
+      marginRight: "-0.16em",
     },
   },
   {
-    value: "C#",
+    value: "JavaScript",
+    factor: 2,
+    margins: {
+      marginTop: "-0.37em",
+      marginBottom: 0,
+      marginLeft: 0,
+      marginRight: "-0.16em",
+    },
+  },
+  {
+    value: "TypeScript",
+    factor: 2,
+    margins: {
+      marginTop: "-0.37em",
+      marginBottom: 0,
+      marginLeft: 0,
+      marginRight: "-0.16em",
+    },
+  },
+  {
+    value: "Node.JS",
     factor: 2,
     margins: {
       marginTop: "-0.37em",
@@ -123,9 +133,9 @@ export const netSkillList: TileSkillData[] = [
   },
 ];
 
-export const sitecoreSkillList: TileSkillData[] = [
+export const solutionArchitectureSkillList: TileSkillData[] = [
   {
-    value: "Sitecore XP",
+    value: "Microservices",
     factor: 1.4,
     margins: {
       marginTop: "-0.09em",
@@ -135,7 +145,7 @@ export const sitecoreSkillList: TileSkillData[] = [
     },
   },
   {
-    value: "Forms",
+    value: "Jamstack",
     factor: 0.7,
     margins: {
       marginTop: 0,
@@ -145,7 +155,7 @@ export const sitecoreSkillList: TileSkillData[] = [
     },
   },
   {
-    value: "EXM",
+    value: "Cloud Services",
     factor: 1,
     margins: {
       marginTop: 0,
@@ -165,17 +175,7 @@ export const sitecoreSkillList: TileSkillData[] = [
     },
   },
   {
-    value: "Engagement Automation",
-    factor: 0.6,
-    margins: {
-      marginTop: 0,
-      marginBottom: "-0.33em",
-      marginLeft: 0,
-      marginRight: "-0.45em",
-    },
-  },
-  {
-    value: "Helix",
+    value: "Composable Architecture",
     factor: 1.7,
     margins: {
       marginTop: 0,
@@ -185,7 +185,7 @@ export const sitecoreSkillList: TileSkillData[] = [
     },
   },
   {
-    value: "WFFM",
+    value: "Dedicated Delivery Networks",
     factor: 0.4,
     margins: {
       marginTop: 0,
@@ -195,7 +195,7 @@ export const sitecoreSkillList: TileSkillData[] = [
     },
   },
   {
-    value: "SXA",
+    value: "Release / Deployment Processes",
     factor: 0.8,
     margins: {
       marginTop: 0,
@@ -203,87 +203,7 @@ export const sitecoreSkillList: TileSkillData[] = [
       marginLeft: 0,
       marginRight: "-0.63em",
     },
-  },
-  {
-    value: "Commerce Connect",
-    factor: 0.6,
-    margins: {
-      marginTop: "-0.69em",
-      marginBottom: 0,
-      marginLeft: 0,
-      marginRight: "-0.57em",
-    },
-  },
-  {
-    value: "xCommerce",
-    factor: 0.6,
-    margins: {
-      marginTop: 0,
-      marginBottom: "-0.84em",
-      marginLeft: "-0.33em",
-      marginRight: 0,
-    },
-  },
-  {
-    value: "JSS",
-    factor: 1,
-    margins: {
-      marginTop: "-0.02em",
-      marginBottom: 0,
-      marginLeft: "-0.40em",
-      marginRight: 0,
-    },
-  },
-  {
-    value: "xAnalytics",
-    factor: 0.8,
-    margins: {
-      marginTop: 0,
-      marginBottom: "-0.09em",
-      marginLeft: "-0.78em",
-      marginRight: 0,
-    },
-  },
-  {
-    value: "SPEAK",
-    factor: 0.6,
-    margins: {
-      marginTop: "-0.98em",
-      marginBottom: 0,
-      marginLeft: 0,
-      marginRight: "-0.06em",
-    },
-  },
-  {
-    value: "Unicorn",
-    factor: 1,
-    margins: {
-      marginTop: "-0.50em",
-      marginBottom: 0,
-      marginLeft: 0,
-      marginRight: "-0.30em",
-    },
-  },
-  {
-    value: "TDS",
-    factor: 1,
-    margins: {
-      marginTop: "-0.80em",
-      marginBottom: 0,
-      marginLeft: "-0.81em",
-      marginRight: 0,
-    },
-  },
-  {
-    value: "Glass.Mapper.Sc",
-    factor: 1,
-    margins: {
-      marginTop: 0,
-      marginBottom: "-0.77em",
-      marginLeft: 0,
-      marginRight: "-0.80em",
-    },
-  },
+  }
 ];
 
 export const frontendSkillList: TileSkillData[] = [

@@ -4,9 +4,9 @@ import { TilePositioningProps, TileSkillsProps } from "./tile.models";
 export const Root = styled.div`
   width: calc(50% - 6rem);
   min-height: 45rem;
-  margin: 1rem;
+  margin: 0rem 1rem;
   position: relative;
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   width: 100%;
