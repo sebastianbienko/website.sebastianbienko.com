@@ -204,107 +204,14 @@ export const solutionArchitectureSkillList: TileSkillData[] = [
       marginRight: "-0.63em",
     },
   },
-];
-
-export const frontendSkillList: TileSkillData[] = [
   {
-    value: "JavaScript",
-    factor: 1.4,
+    value: "CI / CD",
+    factor: 0.8,
     margins: {
       marginTop: 0,
-      marginBottom: "-0.27em",
+      marginBottom: "-0.04em",
       marginLeft: 0,
-      marginRight: "-0.40em",
-    },
-  },
-  {
-    value: "HTML",
-    factor: 1,
-    margins: {
-      marginTop: "-0.23em",
-      marginBottom: 0,
-      marginLeft: 0,
-      marginRight: "-0.42em",
-    },
-  },
-  {
-    value: "SASS",
-    factor: 0.7,
-    margins: {
-      marginTop: "-0.24em",
-      marginBottom: 0,
-      marginLeft: "-0.29em",
-      marginRight: 0,
-    },
-  },
-  {
-    value: "gulp",
-    factor: 0.9,
-    margins: {
-      marginTop: "-0.86em",
-      marginBottom: 0,
-      marginLeft: 0,
-      marginRight: "-0.43em",
-    },
-  },
-  {
-    value: "webpack",
-    factor: 0.6,
-    margins: {
-      marginTop: 0,
-      marginBottom: "-0.49em",
-      marginLeft: 0,
-      marginRight: "-0.88em",
-    },
-  },
-  {
-    value: "CSS",
-    factor: 1,
-    margins: {
-      marginTop: 0,
-      marginBottom: "-0.76em",
-      marginLeft: 0,
-      marginRight: "-0.22em",
-    },
-  },
-  {
-    value: "React",
-    factor: 1.7,
-    margins: {
-      marginTop: "-0.03em",
-      marginBottom: 0,
-      marginLeft: "-0.51em",
-      marginRight: 0,
-    },
-  },
-  {
-    value: "Vue",
-    factor: 0.6,
-    margins: {
-      marginTop: 0,
-      marginBottom: "-0.92em",
-      marginLeft: 0,
-      marginRight: "-0.24em",
-    },
-  },
-  {
-    value: "Redux",
-    factor: 1.2,
-    margins: {
-      marginTop: 0,
-      marginBottom: "-0.65em",
-      marginLeft: 0,
-      marginRight: "-0.35em",
-    },
-  },
-  {
-    value: "Angular",
-    factor: 0.6,
-    margins: {
-      marginTop: "-0.84em",
-      marginBottom: 0,
-      marginLeft: "-0.74em",
-      marginRight: 0,
+      marginRight: "-0.63em",
     },
   },
 ];
