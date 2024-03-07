@@ -1,5 +1,5 @@
 import React from "react";
-import { Paragraph, Quote, ClientReferences } from "../../components";
+import { Paragraph } from "../../components";
 import { Inner } from "../../layout/global.styles";
 import { Root } from "../../layout/my-work.styles";
 
@@ -7,7 +7,7 @@ const MyWork = () => (
   <React.Fragment>
     <Inner>
       <Root>
-      <Paragraph>
+        <Paragraph>
           Over the course of the last years I worked in different roles with
           clients of various industries. During this time I learned to always
           strive for simplicity. It is the easiest way to ensure all parts of a
@@ -20,14 +20,6 @@ const MyWork = () => (
           today, most teams follow a methodology whose rules are described on
           just a few pages.
         </Paragraph>
-        <Quote
-          author="Uncle Bob referring to Ward Cunningham"
-          cite="Clean Code"
-          citesource="https://www.oreilly.com/library/view/clean-code/9780136083238/"
-        >
-          The designer makes it look ridiculously simple like all exceptional
-          designs.
-        </Quote>
         <Paragraph>
           Yet, we struggle to use the same principles in less predefined areas.
           We continue to end up with unmaintainable documentation, error prone
@@ -40,7 +32,6 @@ const MyWork = () => (
           which I can see the care that someone has given.
         </Paragraph>
       </Root>
-      <ClientReferences />
     </Inner>
   </React.Fragment>
 );

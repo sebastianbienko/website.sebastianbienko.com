@@ -8,7 +8,7 @@ export const Root = styled.div`
 export const Email = styled.a`
   text-decoration: none;
   color: black;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: "Nunito";
   font-weight: 200;
 
