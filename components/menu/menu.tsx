@@ -79,27 +79,11 @@ const Menu = () => {
 export default Menu;
 
 /** STYLES: Props */
-
-interface MenuEntryProps {
-  active?: boolean;
-  itemId?: string;
-  title?: string;
-  onClick: (context: publicApiType) => void;
-}
-
 interface ScrollButtonProps {
   rightOriented?: boolean;
 }
 
 /** STYLES: Components */
-
-const Root = styled.div`
-  display: block;
-  position: relative;
-  border-top: 1px solid black;
-  left: 0;
-  position: absolute;
-`;
 
 const NoScrollbar = styled("div")({
   "& .react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar": {

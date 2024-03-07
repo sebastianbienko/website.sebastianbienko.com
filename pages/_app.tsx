@@ -1,12 +1,7 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
-import {
-  FooterWrapper,
-  MenuWrapper,
-  Root,
-  SloganWrapper,
-} from "../layout/global.styles";
-import { Menu, Slogan } from "../components";
+import { FooterWrapper, MenuWrapper, Root } from "../layout/global.styles";
+import { Menu } from "../components";
 import Footer from "../components/footer/footer";
 
 function MyApp({ Component, pageProps }: AppProps) {

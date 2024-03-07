@@ -1,24 +1,13 @@
 import React from "react";
-import { Root, SvgLogoContainer } from "./skills.styles";
+import { Root } from "./skills.styles";
 import Tile from "./tile/tile";
 import { RiCodeSSlashLine, RiPencilRuler2Line } from "react-icons/ri";
-import SitecoreIcon from "../../images/icons/sitecore_thick.svg";
 import {
   backendDevelopmentSkillList,
   solutionArchitectureSkillList,
 } from "./skills.data";
-import Image from "next/image";
 
 const Skills = () => {
-  const sitecoreIcon = (
-    <Image
-      layout="fill"
-      objectFit="contain"
-      src={SitecoreIcon}
-      alt="Sitecore Icon"
-    />
-  );
-
   return (
     <Root>
       <Tile
