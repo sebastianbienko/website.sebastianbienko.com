@@ -3,7 +3,7 @@ import { TilePositioningProps, TileSkillsProps } from "./tile.models";
 
 export const Root = styled.div`
   width: calc(50% - 6rem);
-  min-height: 45rem;
+  min-height: 40rem;
   margin: 0rem 1rem;
   position: relative;
   padding: 1rem;
@@ -13,15 +13,11 @@ export const Root = styled.div`
   max-width: 450px;
 
   @media screen and (min-width: 400px) {
-    min-height: 40rem;
+    min-height: 30rem;
   }
 
   @media screen and (min-width: 1200px) {
     width: 40%;
-  }
-
-  > * {
-    margin: 0.75rem 0;
   }
 `;
 
@@ -30,7 +26,8 @@ export const IconContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 5rem;
+  height: 4rem;
+  margin-bottom: 1rem;
   justify-self: flex-start;
 `;
 
@@ -49,6 +46,7 @@ export const Title = styled.h2`
   line-height: 1.2rem;
   justify-self: flex-start;
   padding: 0 1rem;
+  margin-bottom: 1rem;
 `;
 
 export const SubTitle = styled.div`
@@ -72,7 +70,7 @@ export const SkillsContainer = styled.div`
   }
 
   > div {
-    height: 20rem;
+    height: 18rem;
     width: 100%;
     display: flex;
     flex-direction: column;

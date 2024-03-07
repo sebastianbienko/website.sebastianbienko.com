@@ -83,7 +83,7 @@ export const backendDevelopmentSkillList: TileSkillData[] = [
   },
   {
     value: "JavaScript",
-    factor: 2,
+    factor: 0.8,
     margins: {
       marginTop: "-0.37em",
       marginBottom: 0,
@@ -93,7 +93,7 @@ export const backendDevelopmentSkillList: TileSkillData[] = [
   },
   {
     value: "TypeScript",
-    factor: 2,
+    factor: 0.8,
     margins: {
       marginTop: "-0.37em",
       marginBottom: 0,
@@ -103,7 +103,7 @@ export const backendDevelopmentSkillList: TileSkillData[] = [
   },
   {
     value: "Node.JS",
-    factor: 2,
+    factor: 1.5,
     margins: {
       marginTop: "-0.37em",
       marginBottom: 0,
@@ -203,7 +203,7 @@ export const solutionArchitectureSkillList: TileSkillData[] = [
       marginLeft: 0,
       marginRight: "-0.63em",
     },
-  }
+  },
 ];
 
 export const frontendSkillList: TileSkillData[] = [

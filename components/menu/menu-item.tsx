@@ -50,6 +50,7 @@ interface MenuEntryProps {
 /** STYLES: Components */
 
 const Root = styled.div<MenuEntryProps>`
+  font-family: "Nunito";
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
