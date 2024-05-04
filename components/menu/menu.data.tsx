@@ -3,10 +3,10 @@ export const routes = [
     title: "Intro",
     pathname: "/",
   },
-  /*{
-    title: "My Work",
-    pathname: "/my-work",
-  },*/
+  {
+    title: "Experiences",
+    pathname: "/experiences",
+  },
   {
     title: "Services",
     pathname: "/services",
