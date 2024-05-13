@@ -9,7 +9,7 @@ const PrivacyAndLegal = () => (
       <Heading priority={1}>Legal Notice</Heading>
       <Paragraph>
         {
-          "Sebastian Bienko <br /> Oppelner Straße 34 <br /> mail@sebastianbienko.com"
+          "Sebastian Bienko <br /> Oppelner Straße 34 <br /> 10997 Berlin <br /> mail@sebastianbienko.com"
         }
       </Paragraph>
       <Paragraph>
