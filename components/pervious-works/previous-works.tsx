@@ -14,17 +14,21 @@ interface RowProps {
 const PreviousWork = (props: PreviousWorksProps) => (
   <Root {...props}>
     {PreviousWorkData.map((entry, index) => (
-      <Entry>
+      <Entry key={index}>
         <Head>
-          <Dates><div>{entry.dates}</div></Dates>
-          <Client><div>{entry.client}</div></Client>
+          <Dates>
+            <div>{entry.dates}</div>
+          </Dates>
+          <Client>
+            <div>{entry.client}</div>
+          </Client>
         </Head>
         <Row rightOriented>
           <Roles>{entry.roles}</Roles>
         </Row>
         <Description>
           {entry.description.map((desc, i) => (
-            <Paragraph>{desc}</Paragraph>
+            <Paragraph key={i}>{desc}</Paragraph>
           ))}
         </Description>
       </Entry>
@@ -54,10 +58,10 @@ const Head = styled.div`
   @media only screen and (max-width: 50rem) {
     display: block;
   }
-`
+`;
 
 const Dates = styled.span`
-margin-left: -3.5rem;
+  margin-left: -3.5rem;
 
   @media only screen and (max-width: 50rem) {
     margin-left: 0rem;
@@ -66,7 +70,7 @@ margin-left: -3.5rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-  } 
+  }
 `;
 
 const Client = styled.span`
@@ -77,16 +81,15 @@ const Client = styled.span`
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-  } 
+  }
 
   > div {
     &:before {
-    font-weight: 400;
-    content: "for ";
-    font-size: 0.8rem;
+      font-weight: 400;
+      content: "for ";
+      font-size: 0.8rem;
+    }
   }
-  }
-  
 `;
 
 const Roles = styled.span`
@@ -107,14 +110,13 @@ const Description = styled.div`
 
 const Entry = styled.div`
   margin-bottom: 4rem;
-`
+`;
 
 const Row = styled.div<RowProps>`
   display: flex;
   flex-direction: row;
   justify-content: ${(props) =>
     props.rightOriented ? "flex-end" : "space-between"};
-  
 `;
 
 export default PreviousWork;

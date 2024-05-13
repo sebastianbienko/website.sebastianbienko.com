@@ -8,6 +8,5 @@ export const Root = styled.p<ParagraphProps>`
   margin-bottom: 1.2rem;
   letter-spacing: 0.01rem;
   font-weight: ${(props) => (props.outstanding ? 300 : 400)};
-  display: inline-block;
   text-align: ${(props) => (props.center ? "center" : "left")};
 `;

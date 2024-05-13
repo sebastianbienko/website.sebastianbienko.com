@@ -103,7 +103,7 @@ section {
 }
 
 html {
-  font-size: calc(18px + (20 - 18) * ((100vw - 300px) / (1200 - 300)));
+  font-size: clamp(16px, calc(18px + (20 - 18) * ((100vw - 300px) / (1200 - 300))), 42px);
 }
 
 ol,

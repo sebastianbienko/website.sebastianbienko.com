@@ -13,6 +13,6 @@ export const Email = styled.a`
   font-weight: 200;
 
   @media screen and (min-width: 500px) {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
 `;
