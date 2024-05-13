@@ -4,8 +4,8 @@ export const routes = [
     pathname: "/",
   },
   {
-    title: "Experiences",
-    pathname: "/experiences",
+    title: "Work",
+    pathname: "/work",
   },
   {
     title: "Services",

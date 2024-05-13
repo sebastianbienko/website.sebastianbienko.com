@@ -18,8 +18,8 @@ const Skills = () => {
       />
       <Tile
         icon={<RiPencilRuler2Line size="4em" />}
-        title="Solution architecture"
-        subtitle="I like building well structured back-end systems at scale."
+        title="System architecture"
+        subtitle="I like building well structured systems at scale."
         skills={solutionArchitectureSkillList}
       />
     </Root>
