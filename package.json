@@ -9,25 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "html-react-parser": "^5.1.10",
-    "next": "^13.5.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-horizontal-scrolling-menu": "^6.0.0",
-    "react-icons": "^4.11.0",
-    "react-spring": "^9.7.3",
-    "styled-components": "^6.1.0",
-    "typed.js": "^2.0.16"
+    "html-react-parser": "^6.1.5",
+    "next": "^15.5.21",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-horizontal-scrolling-menu": "^8.2.0",
+    "react-icons": "^5.7.0",
+    "react-spring": "^10.0.4",
+    "styled-components": "^6.4.4",
+    "typed.js": "^3.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20.8.7",
-    "@types/react": "^18.2.31",
-    "@types/react-dom": "^18.2.14",
-    "@types/styled-components": "^5.1.29",
-    "eslint": "^8.52.0",
-    "eslint-config-next": "^13.5.6",
-    "eslint-plugin-unused-imports": "^3.0.0",
-    "prettier": "^3.0.3",
-    "typescript": "^5.2.2"
+    "@types/node": "^26.1.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@types/styled-components": "^5.1.36",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^15.5.21",
+    "eslint-plugin-unused-imports": "^4.4.1",
+    "prettier": "^3.9.6",
+    "typescript": "^5.9.3"
   }
 }
