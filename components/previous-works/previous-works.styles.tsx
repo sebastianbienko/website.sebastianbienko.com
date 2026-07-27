@@ -1,42 +1,7 @@
-import React from "react";
 import styled from "styled-components";
-import Paragraph from "../paragraph/paragraph";
-import { PreviousWorkData } from "./previous-works.data";
+import { PreviousWorksProps, RowProps } from "./previous-works.models";
 
-interface PreviousWorksProps {
-  rightOriented?: boolean;
-}
-
-interface RowProps {
-  rightOriented?: boolean;
-}
-
-const PreviousWork = (props: PreviousWorksProps) => (
-  <Root {...props}>
-    {PreviousWorkData.map((entry, index) => (
-      <Entry key={index}>
-        <Head>
-          <Dates>
-            <div>{entry.dates}</div>
-          </Dates>
-          <Client>
-            <div>{entry.client}</div>
-          </Client>
-        </Head>
-        <Row rightOriented>
-          <Roles>{entry.roles}</Roles>
-        </Row>
-        <Description>
-          {entry.description.map((desc, i) => (
-            <Paragraph key={i}>{desc}</Paragraph>
-          ))}
-        </Description>
-      </Entry>
-    ))}
-  </Root>
-);
-
-const Root = styled.div<PreviousWorksProps>`
+export const Root = styled.div<PreviousWorksProps>`
   font-family: "Nunito";
   font-size: 1rem;
   line-height: 1.4rem;
@@ -49,7 +14,7 @@ const Root = styled.div<PreviousWorksProps>`
   max-width: 30rem;
 `;
 
-const Head = styled.div`
+export const Head = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -60,7 +25,7 @@ const Head = styled.div`
   }
 `;
 
-const Dates = styled.span`
+export const Dates = styled.span`
   margin-left: -3.5rem;
 
   @media only screen and (max-width: 50rem) {
@@ -73,7 +38,7 @@ const Dates = styled.span`
   }
 `;
 
-const Client = styled.span`
+export const Client = styled.span`
   font-weight: 800;
 
   @media only screen and (max-width: 50rem) {
@@ -92,7 +57,7 @@ const Client = styled.span`
   }
 `;
 
-const Roles = styled.span`
+export const Roles = styled.span`
   font-weight: 400;
 
   &:before {
@@ -102,21 +67,19 @@ const Roles = styled.span`
   }
 `;
 
-const Description = styled.div`
+export const Description = styled.div`
   margin-top: 2rem;
   width: 80vw;
   max-width: 30rem;
 `;
 
-const Entry = styled.div`
+export const Entry = styled.div`
   margin-bottom: 4rem;
 `;
 
-const Row = styled.div<RowProps>`
+export const Row = styled.div<RowProps>`
   display: flex;
   flex-direction: row;
   justify-content: ${(props) =>
     props.rightOriented ? "flex-end" : "space-between"};
 `;
-
-export default PreviousWork;

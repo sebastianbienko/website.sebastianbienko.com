@@ -1,11 +1,11 @@
 import React from "react";
 import { welcomeText } from "./welcome.data";
 import {
-    Root,
-    ProfileImage,
-    Typewriter,
-    ImageContainer,
-    TextContainer,
+  Root,
+  ProfileImage,
+  Typewriter,
+  ImageContainer,
+  TextContainer,
 } from "./welcome.styles";
 
 const Welcome = () => (

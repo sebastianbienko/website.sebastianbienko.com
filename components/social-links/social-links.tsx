@@ -1,6 +1,6 @@
 import React from "react";
-import { Root, SocialIconLinkWrapper, Inner } from "./social-links.styles";
 import { RiXingLine, RiLinkedinLine } from "react-icons/ri";
+import { Root, SocialIconLinkWrapper, Inner } from "./social-links.styles";
 
 const SocialLinks = () => (
   <Root>

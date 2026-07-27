@@ -1,11 +1,11 @@
 import React from "react";
-import { Root } from "./skills.styles";
-import Tile from "./tile/tile";
 import { RiCodeSSlashLine, RiPencilRuler2Line } from "react-icons/ri";
 import {
   backendDevelopmentSkillList,
   solutionArchitectureSkillList,
 } from "./skills.data";
+import { Root } from "./skills.styles";
+import Tile from "./tile/tile";
 
 const Skills = () => {
   return (

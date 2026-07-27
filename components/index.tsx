@@ -5,6 +5,7 @@ import Skills from "./skills/skills";
 import SocialLinks from "./social-links/social-links";
 import ContactInformation from "./contact-information/contact-information";
 import Heading from "./heading/heading";
+import PreviousWork from "./previous-works/previous-works";
 
 export {
   Welcome,
@@ -14,4 +15,5 @@ export {
   SocialLinks,
   ContactInformation,
   Heading,
+  PreviousWork,
 };
