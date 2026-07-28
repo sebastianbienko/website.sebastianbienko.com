@@ -1,16 +1,16 @@
 export const PreviousWorkData = [
   {
-    dates: "11/24 - 11/26",
+    dates: "Nov. 2024 - Nov. 2026",
     client: "MongoDB",
     roles: "consulting engineer",
     description: [
-      "- Designed and engineered a financial-sector lakehouse architecture, utilizing Trino and Apache Airflow to orchestrate scalable data pipelines for downstream analytics and RAG integrations.",
-      '- Developed a scalable, containerized RESTful API leveraging AWS Lambda and Docker to enable dynamic, high-performance data access and extend core database capabilities.',
-      "- Advised enterprise clients on distributed database architecture, executing sharding strategies and cluster scaling to optimize high-throughput, large-scale distributed deployments."
+      "Designed and engineered a financial-sector lakehouse architecture, utilizing Trino and Apache Airflow to orchestrate scalable data pipelines for downstream analytics and RAG integrations.",
+      'Developed a scalable, containerized RESTful API leveraging AWS Lambda and Docker to enable dynamic, high-performance data access and extend core database capabilities.',
+      "Advised enterprise clients on distributed database architecture, executing sharding strategies and cluster scaling to optimize high-throughput, large-scale distributed deployments."
     ]
   },
   {
-    dates: "01/23 - 02/24",
+    dates: "Jan. 2023 - Feb. 2024",
     client: "MHP / Porsche",
     roles: "tech lead / backend developer",
     description: [
@@ -19,7 +19,7 @@ export const PreviousWorkData = [
     ],
   },
   {
-    dates: "04/20 - 12/22",
+    dates: "Apr. 2020 - Dec. 2022",
     client: "MHP / Porsche",
     roles: "tech lead / backend developer",
     description: [
@@ -28,7 +28,7 @@ export const PreviousWorkData = [
     ],
   },
   {
-    dates: "06/19 - 02/20",
+    dates: "Jun. 2019 - Feb. 2020",
     client: "Deloitte / BMW",
     roles: "build manager / technical consultant",
     description: [
@@ -37,7 +37,7 @@ export const PreviousWorkData = [
     ],
   },
   {
-    dates: "08/17 - 05/18",
+    dates: "Aug. 2017 - May. 2018",
     client: ".comspace / Nolte Küchen",
     roles: "tech lead / project manager",
     description: [

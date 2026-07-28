@@ -27,6 +27,7 @@ export const Head = styled.div`
 
 export const Dates = styled.span`
   margin-left: -3.5rem;
+  font-size: 1rem;
 
   @media only screen and (max-width: 50rem) {
     margin-left: 0rem;
