@@ -1,12 +1,14 @@
+import React from "react";
+
 export const PreviousWorkData = [
   {
     dates: "Nov. 2024 - Nov. 2026",
     client: "MongoDB",
     roles: "consulting engineer",
     description: [
-      "Designed and engineered a financial-sector lakehouse architecture, utilizing Trino and Apache Airflow to orchestrate scalable data pipelines for downstream analytics and RAG integrations.",
-      'Developed a scalable, containerized RESTful API leveraging AWS Lambda and Docker to enable dynamic, high-performance data access and extend core database capabilities.',
-      "Advised enterprise clients on distributed database architecture, executing sharding strategies and cluster scaling to optimize high-throughput, large-scale distributed deployments."
+      <>Designed and engineered a financial-sector lakehouse architecture, utilizing <code>Trino</code> and <code>Apache Airflow</code> to orchestrate scalable data pipelines for downstream analytics and <code>RAG</code> integrations.</>,
+      <>Developed a scalable, containerized <code>RESTful API</code> leveraging <code>AWS Lambda</code> and <code>Docker</code> to enable dynamic, high-performance data access and extend core database capabilities.</>,
+      <>Advised enterprise clients on distributed database architecture, executing sharding strategies and cluster scaling to optimize high-throughput, large-scale distributed deployments.</>
     ]
   },
   {
@@ -14,8 +16,8 @@ export const PreviousWorkData = [
     client: "MHP / Porsche",
     roles: "tech lead / backend developer",
     description: [
-      "The Porsche.com website plays a crucial role in the company's online marketing strategy, enabling users worldwide to explore their products.",
-      'Therefore, it\'s essential for the site to maintain high availability and stay up to date. I initially joined the platform team, responsible for managing the foundation, as a backend developer. Later, I transitioned into the role of tech lead, where I improved team structure and processes, while putting a technical focus on enhancing system stability and headless functionalities.',
+      <>The <code>Porsche.com</code> website plays a crucial role in the company's online marketing strategy, enabling users worldwide to explore their products.</>,
+      <>Therefore, it's essential for the site to maintain high availability and stay up to date. I initially joined the platform team, responsible for managing the foundation, as a backend developer. Later, I transitioned into the role of tech lead, where I improved team structure and processes, while putting a technical focus on enhancing system stability and headless functionalities.</>,
     ],
   },
   {
@@ -23,8 +25,8 @@ export const PreviousWorkData = [
     client: "MHP / Porsche",
     roles: "tech lead / backend developer",
     description: [
-      "Porsche Stories serves as a hub for emotionally driven content, engaging visitors with the products through various channels.",
-      'As a backend developer, my primary focus was to expand content editing and headless capabilities. About a year later, I assumed additional responsibilities as tech lead. We successfully integrated a significant amount of content, delivering it to end users through our own decoupled frontend application and providing it to other teams through two distinct APIs tailored to specific use cases.',
+      <>Porsche Stories serves as a hub for emotionally driven content, engaging visitors with the products through various channels.</>,
+      <>As a backend developer, my primary focus was to expand content editing and headless capabilities. About a year later, I assumed additional responsibilities as tech lead. We successfully integrated a significant amount of content, delivering it to end users through our own decoupled frontend application and providing it to other teams through two distinct <code>APIs</code> tailored to specific use cases.</>,
     ],
   },
   {
@@ -32,8 +34,8 @@ export const PreviousWorkData = [
     client: "Deloitte / BMW",
     roles: "build manager / technical consultant",
     description: [
-      "The BMW used car portal enables dealerships worldwide to advertise and sell used vehicles.",
-      'As a build manager, my primary responsibility was to act as a liaison between the client\'s complex IT infrastructure and the external implementation team. In this role, I collaborated with the product owner to drive product improvements and requirements. Additionally, I provided technical expertise to assist the team during implementation.',
+      <>The BMW used car portal enables dealerships worldwide to advertise and sell used vehicles.</>,
+      <>As a build manager, my primary responsibility was to act as a liaison between the client's complex IT infrastructure and the external implementation team. In this role, I collaborated with the product owner to drive product improvements and requirements. Additionally, I provided technical expertise to assist the team during implementation.</>,
     ],
   },
   {

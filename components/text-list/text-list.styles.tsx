@@ -28,4 +28,11 @@ export const Icon = styled.span`
 
 export const Content = styled.span`
   flex: 1;
+
+  code {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 0.92em;
+    font-weight: 600;
+    padding: 0 0.2rem;
+  }
 `;
