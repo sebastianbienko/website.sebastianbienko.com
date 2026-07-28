@@ -1,5 +1,15 @@
 export const PreviousWorkData = [
   {
+    dates: "11/24 - 11/26",
+    client: "MongoDB",
+    roles: "consulting engineer",
+    description: [
+      "- Designed and engineered a financial-sector lakehouse architecture, utilizing Trino and Apache Airflow to orchestrate scalable data pipelines for downstream analytics and RAG integrations.",
+      '- Developed a scalable, containerized RESTful API leveraging AWS Lambda and Docker to enable dynamic, high-performance data access and extend core database capabilities.',
+      "- Advised enterprise clients on distributed database architecture, executing sharding strategies and cluster scaling to optimize high-throughput, large-scale distributed deployments."
+    ]
+  },
+  {
     dates: "01/23 - 02/24",
     client: "MHP / Porsche",
     roles: "tech lead / backend developer",
@@ -20,19 +30,10 @@ export const PreviousWorkData = [
   {
     dates: "06/19 - 02/20",
     client: "Deloitte / BMW",
-    roles: "build manager / consultant",
+    roles: "build manager / technical consultant",
     description: [
       "The BMW used car portal enables dealerships worldwide to advertise and sell used vehicles.",
       'As a build manager, my primary responsibility was to act as a liaison between the client\'s complex IT infrastructure and the external implementation team. In this role, I collaborated with the product owner to drive product improvements and requirements. Additionally, I provided technical expertise to assist the team during implementation.',
-    ],
-  },
-  {
-    dates: "06/18 - 12/18",
-    client: "init AG / Börse Stuttgart",
-    roles: "backend developer",
-    description: [
-      "The website of a stock exchange is crucial to its operations, as it provides essential information and services to investors and shareholders.",
-      'One of the most enjoyable challenges of my career was integrating data providers into the content management system and frontend application. This ensured a seamless end-user experience, blending content elements with stock exchange data.',
     ],
   },
   {

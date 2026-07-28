@@ -6,6 +6,7 @@ import SocialLinks from "./social-links/social-links";
 import ContactInformation from "./contact-information/contact-information";
 import Heading from "./heading/heading";
 import PreviousWork from "./previous-works/previous-works";
+import TextList from "./text-list/text-list";
 
 export {
   Welcome,
@@ -16,4 +17,5 @@ export {
   ContactInformation,
   Heading,
   PreviousWork,
+  TextList,
 };

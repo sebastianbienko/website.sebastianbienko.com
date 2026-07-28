@@ -1,5 +1,5 @@
 import React from "react";
-import Paragraph from "../paragraph/paragraph";
+import TextList from "../text-list/text-list";
 import { PreviousWorkData } from "./previous-works.data";
 import { PreviousWorksProps } from "./previous-works.models";
 import {
@@ -29,9 +29,7 @@ const PreviousWork = (props: PreviousWorksProps) => (
           <Roles>{entry.roles}</Roles>
         </Row>
         <Description>
-          {entry.description.map((desc, i) => (
-            <Paragraph key={i}>{desc}</Paragraph>
-          ))}
+          <TextList items={entry.description} />
         </Description>
       </Entry>
     ))}
