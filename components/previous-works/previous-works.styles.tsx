@@ -26,7 +26,7 @@ export const Head = styled.div`
 `;
 
 export const Dates = styled.span`
-  margin-left: -3.5rem;
+  margin-left: -1.3rem;
   font-size: 1rem;
   font-weight: 400;
   display: flex;
