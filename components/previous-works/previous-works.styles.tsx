@@ -51,7 +51,7 @@ export const Dates = styled.span`
 
   @media only screen and (max-width: 50rem) {
     margin-left: -0.75rem;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.1rem;
     width: 100%;
     justify-content: flex-start;
   }
