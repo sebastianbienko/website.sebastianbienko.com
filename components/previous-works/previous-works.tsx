@@ -19,7 +19,8 @@ const PreviousWork = (props: PreviousWorksProps) => (
       <Entry key={index}>
         <Head>
           <Dates>
-            <div>{entry.dates}</div>
+            <div>{entry.dates.from}</div>
+            <div>{entry.dates.till}</div>
           </Dates>
           <Client>
             <div>{entry.client}</div>

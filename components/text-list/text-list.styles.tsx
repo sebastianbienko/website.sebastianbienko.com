@@ -22,7 +22,7 @@ export const Item = styled.li`
 export const Icon = styled.span`
   margin-top: 0.2rem;
   color: #000;
-  font-size: 0.7rem;
+  font-size: 0.55rem;
   flex-shrink: 0;
 `;
 

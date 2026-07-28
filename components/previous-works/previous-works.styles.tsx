@@ -28,13 +28,31 @@ export const Head = styled.div`
 export const Dates = styled.span`
   margin-left: -3.5rem;
   font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+
+  > div {
+    display: inline-block;
+  }
+
+  > div:first-child:before {
+    font-weight: 400;
+    content: "from ";
+    font-size: 0.8rem;
+  }
+
+  > div:last-child:before {
+    font-weight: 400;
+    content: "till ";
+    font-size: 0.8rem;
+  }
 
   @media only screen and (max-width: 50rem) {
     margin-left: 0rem;
     margin-bottom: 1rem;
     width: 100%;
-    display: flex;
-    flex-direction: row;
     justify-content: flex-start;
   }
 `;

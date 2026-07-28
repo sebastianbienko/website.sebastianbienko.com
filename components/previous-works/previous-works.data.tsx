@@ -2,17 +2,17 @@ import React from "react";
 
 export const PreviousWorkData = [
   {
-    dates: "Nov. 2024 - Nov. 2026",
+    dates: { from: 2024, till: 2026 },
     client: "MongoDB",
     roles: "consulting engineer",
     description: [
       <>Designed and engineered a financial-sector lakehouse architecture, utilizing <code>Trino</code> and <code>Apache Airflow</code> to orchestrate scalable data pipelines for downstream analytics and <code>RAG</code> integrations.</>,
       <>Developed a scalable, containerized <code>RESTful API</code> leveraging <code>AWS Lambda</code> and <code>Docker</code> to enable dynamic, high-performance data access and extend core database capabilities.</>,
-      <>Advised enterprise clients on distributed database architecture, executing sharding strategies and cluster scaling to optimize high-throughput, large-scale distributed deployments.</>
+      <>Advised enterprise clients on <code>distributed database architecture</code>, executing <code>sharding strategies</code> and cluster scaling to optimize high-throughput, large-scale distributed deployments.</>
     ]
   },
   {
-    dates: "Jan. 2023 - Feb. 2024",
+    dates: { from: 2023, till: 2024 },
     client: "MHP / Porsche",
     roles: "tech lead / backend developer",
     description: [
@@ -21,7 +21,7 @@ export const PreviousWorkData = [
     ],
   },
   {
-    dates: "Apr. 2020 - Dec. 2022",
+    dates: { from: 2020, till: 2022 },
     client: "MHP / Porsche",
     roles: "tech lead / backend developer",
     description: [
@@ -30,7 +30,7 @@ export const PreviousWorkData = [
     ],
   },
   {
-    dates: "Jun. 2019 - Feb. 2020",
+    dates: { from: 2019, till: 2020 },
     client: "Deloitte / BMW",
     roles: "build manager / technical consultant",
     description: [
@@ -39,7 +39,7 @@ export const PreviousWorkData = [
     ],
   },
   {
-    dates: "Aug. 2017 - May. 2018",
+    dates: { from: 2017, till: 2018 },
     client: ".comspace / Nolte Küchen",
     roles: "tech lead / project manager",
     description: [
