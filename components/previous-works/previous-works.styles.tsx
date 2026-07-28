@@ -31,7 +31,7 @@ export const Dates = styled.span`
   font-weight: 400;
   display: flex;
   flex-direction: row;
-  gap: 0.5rem;
+  gap: 0.2rem;
 
   > div {
     display: inline-block;
@@ -90,6 +90,10 @@ export const Description = styled.div`
   margin-top: 2rem;
   width: 80vw;
   max-width: 30rem;
+
+  @media only screen and (max-width: 50rem) {
+    margin-top: 1.7rem;
+  }
 `;
 
 export const Entry = styled.div`
