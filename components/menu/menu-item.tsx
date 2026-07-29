@@ -27,12 +27,13 @@ function MenuItem({
     <Link href={pathname}>
       <Root
         data-cy={itemId}
+        data-title={title}
         role="button"
         tabIndex={0}
         visible={isVisible}
         selected={selected}
       >
-        {title}
+        <Label selected={selected}>{title}</Label>
       </Root>
     </Link>
   );
@@ -47,22 +48,31 @@ interface MenuEntryProps {
   visible?: boolean;
 }
 
+interface MenuLabelProps {
+  selected?: boolean;
+}
+
 /** STYLES: Components */
 
 const Root = styled.div<MenuEntryProps>`
   font-family: "Nunito";
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  font-weight: ${(props) => (props.selected ? "bold" : "300")};
+  display: inline-grid;
+  align-items: center;
   cursor: pointer;
   border-top: ${(props) =>
     props.selected ? "3px solid black" : "3px solid white"};
   height: 2rem;
   line-break: strict;
-  flex-wrap: nowrap;
   white-space: nowrap;
   padding-right: 1.5rem;
+
+  &::after {
+    content: attr(data-title);
+    grid-area: 1 / 1;
+    font-weight: 700;
+    visibility: hidden;
+    white-space: nowrap;
+  }
 
   > a {
     display: inline-block;
@@ -75,4 +85,9 @@ const Root = styled.div<MenuEntryProps>`
     width: 100%;
     white-space: nowrap;
   }
+`;
+
+const Label = styled.span<MenuLabelProps>`
+  grid-area: 1 / 1;
+  font-weight: ${(props) => (props.selected ? "700" : "300")};
 `;
