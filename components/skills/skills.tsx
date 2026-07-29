@@ -4,25 +4,30 @@ import {
   backendDevelopmentSkillList,
   solutionArchitectureSkillList,
 } from "./skills.data";
-import { Root } from "./skills.styles";
+import { Intro, Root } from "./skills.styles";
 import Tile from "./tile/tile";
 
 const Skills = () => {
   return (
-    <Root>
-      <Tile
-        icon={<RiCodeSSlashLine size="4em" />}
-        title="Software development"
-        subtitle="I like writing clean, robust and performant code, with a focus on backend development."
-        skills={backendDevelopmentSkillList}
-      />
-      <Tile
-        icon={<RiPencilRuler2Line size="4em" />}
-        title="System architecture"
-        subtitle="I like building well structured systems at scale."
-        skills={solutionArchitectureSkillList}
-      />
-    </Root>
+    <>
+      <Intro>
+        A decade of backend engineering meets deep database expertise to build lean, performant data layers.
+      </Intro>
+      <Root>
+        <Tile
+          icon={<RiCodeSSlashLine size="4em" />}
+          title="Software development"
+          subtitle="I like writing clean, robust and performant code, with a focus on backend development."
+          skills={backendDevelopmentSkillList}
+        />
+        <Tile
+          icon={<RiPencilRuler2Line size="4em" />}
+          title="System architecture"
+          subtitle="I like building well structured systems at scale."
+          skills={solutionArchitectureSkillList}
+        />
+      </Root>
+    </>
   );
 };
 

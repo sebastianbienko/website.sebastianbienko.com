@@ -58,6 +58,16 @@ export const SubTitle = styled.div`
   padding: 0 1rem;
 `;
 
+export const SubTitleText = styled.p`
+  font-family: "Nunito";
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.01rem;
+  text-align: center;
+  margin: 0;
+`;
+
 export const SkillsContainer = styled.div`
   width: 100%;
   display: flex;

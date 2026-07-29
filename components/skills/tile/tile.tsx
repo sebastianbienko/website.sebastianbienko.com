@@ -5,11 +5,11 @@ import {
   IconContainer,
   Title,
   SubTitle,
+  SubTitleText,
   SkillsContainer,
   Skill,
 } from "./tile.styles";
 import { GrBottomCorner, GrTopCorner } from "react-icons/gr";
-import { Paragraph } from "../..";
 import { TileProps } from "./tile.models";
 
 const Tile = (props: TileProps) => {
@@ -43,9 +43,7 @@ const Tile = (props: TileProps) => {
       <IconContainer>{props.icon}</IconContainer>
       <Title>{props.title}</Title>
       <SubTitle>
-        <Paragraph center outstanding>
-          {props.subtitle}
-        </Paragraph>
+        <SubTitleText>{props.subtitle}</SubTitleText>
       </SubTitle>
       <SkillsContainer>
         <div>
