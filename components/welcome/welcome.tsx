@@ -12,7 +12,7 @@ const Welcome = () => (
     <Root>
         <ImageContainer>
             <ProfileImage
-                src={require("../../images/profile_image.jpg")}
+                src={require("../../images/profile_image.webp")}
                 alt="profile_image"
                 layout="responsive"
             />
