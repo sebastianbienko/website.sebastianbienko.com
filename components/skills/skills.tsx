@@ -4,7 +4,7 @@ import {
   backendDevelopmentSkillList,
   solutionArchitectureSkillList,
 } from "./skills.data";
-import { Intro, Note, Root } from "./skills.styles";
+import { Intro, Root } from "./skills.styles";
 import Tile from "./tile/tile";
 
 const Skills = () => {
@@ -27,7 +27,6 @@ const Skills = () => {
           skills={solutionArchitectureSkillList}
         />
       </Root>
-      <Note>* of course, I also use AI tools in my daily work.</Note>
     </>
   );
 };
