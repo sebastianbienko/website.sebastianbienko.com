@@ -1,7 +1,8 @@
 import styled from "styled-components";
-import { TilePositioningProps, TileSkillsProps } from "./tile.models";
+import { TilePositioningProps } from "./tile.models";
 
 export const Root = styled.div`
+  --tile-stroke: 0.2rem;
   width: calc(50% - 6rem);
   min-height: 40rem;
   margin: 0rem 1rem;
@@ -18,6 +19,10 @@ export const Root = styled.div`
 
   @media screen and (min-width: 1200px) {
     width: 40%;
+  }
+
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 4rem;
   }
 `;
 
@@ -37,6 +42,14 @@ export const Corner = styled.div<TilePositioningProps>`
   right: ${(props) => (props.right ? 0 : "auto")};
   bottom: ${(props) => (props.bottom ? 0 : "auto")};
   left: ${(props) => (props.left ? 0 : "auto")};
+  width: 1.35rem;
+  height: 1.35rem;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: #000;
+  border-width: ${(props) =>
+    `${props.top ? "var(--tile-stroke)" : "0"} ${props.right ? "var(--tile-stroke)" : "0"} ${props.bottom ? "var(--tile-stroke)" : "0"} ${props.left ? "var(--tile-stroke)" : "0"}`};
+  pointer-events: none;
 `;
 
 export const Title = styled.h2`
@@ -72,36 +85,63 @@ export const SkillsContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   flex-grow: 1;
 
   @media screen and (min-width: 1200px) {
     padding: 0 1rem;
   }
+`;
 
-  > div {
-    height: 18rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+export const SkillList = styled.ul`
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: 2rem;
+  row-gap: 0.5rem;
+  position: relative;
 
-    > div {
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      text-align: center;
-    }
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 1px dashed #000;
+    opacity: 0.65;
   }
 `;
 
-export const Skill = styled.span<TileSkillsProps>`
-  font-family: "Nunito";
+export const SkillItem = styled.li`
+  text-align: right;
+  padding: 0.15rem 0;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  min-width: 0;
+
+  &:nth-child(even) {
+    text-align: left;
+    grid-column: 2;
+  }
+
+  &:nth-child(odd) {
+    grid-column: 1;
+  }
+`;
+
+export const SkillTerm = styled.span`
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
   font-weight: 400;
-  font-size: ${(props) => "calc(1.2rem * " + props.factor + ")"};
-  color: rgba(0, 0, 0, 0.3);
-  padding: 0.5rem 0.75rem;
-  position: relative;
+  padding: 0 0.2rem;
+  display: inline-block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  hyphens: auto;
 `;
