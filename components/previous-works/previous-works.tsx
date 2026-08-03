@@ -19,8 +19,8 @@ const PreviousWork = (props: PreviousWorksProps) => (
       <Entry key={index}>
         <Head>
           <Dates>
-            <div>{entry.dates.from}</div>
-            <div>{entry.dates.till}</div>
+            <div className="from">{entry.dates.from}</div>
+            {entry.dates.till ? <div className="till">{entry.dates.till}</div> : null}
           </Dates>
           <Client>
             <div>{entry.client}</div>

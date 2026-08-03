@@ -2,7 +2,7 @@ import React from "react";
 
 export const PreviousWorkData = [
   {
-    dates: { from: 2024, till: 2026 },
+    dates: { from: 2024 },
     client: "MongoDB",
     roles: "consulting engineer",
     description: [

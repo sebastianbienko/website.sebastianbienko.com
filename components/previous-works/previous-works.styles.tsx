@@ -37,13 +37,13 @@ export const Dates = styled.span`
     display: inline-block;
   }
 
-  > div:first-child:before {
+  > div.from:before {
     font-weight: 400;
     content: "from ";
     font-size: 0.8rem;
   }
 
-  > div:last-child:before {
+  > div.till:before {
     font-weight: 400;
     content: "till ";
     font-size: 0.8rem;
