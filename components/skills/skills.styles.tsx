@@ -9,16 +9,32 @@ export const Root = styled.div`
 
 export const Intro = styled.p`
   font-family: "Nunito";
-  font-size: 1.1rem;
-  font-weight: 700;
-  line-height: 1.55;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.4;
+  letter-spacing: 0.01rem;
+  position: relative;
   max-width: 42rem;
-  padding: 0 clamp(1rem, 3vw, 2.75rem);
-  margin: 0 auto clamp(3rem, 2.4rem + 1.2vw, 4.25rem) auto;
+  padding: 0 clamp(1rem, 3vw, 2.75rem) 0 clamp(2rem, 4.5vw, 4rem);
+  margin: 0 auto clamp(4rem, 3.2rem + 1.8vw, 5.5rem) auto;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: clamp(1rem, 3vw, 2.75rem);
+    top: 0;
+    bottom: 0;
+    width: 0.2rem;
+    background: #000;
+  }
 
   @media (min-width: 1024px) {
-    padding-left: clamp(3.5rem, 6vw, 7rem);
+    padding-left: clamp(4.5rem, 7vw, 8rem);
     padding-right: clamp(3.5rem, 6vw, 7rem);
+
+    &::before {
+      left: clamp(3.5rem, 6vw, 7rem);
+    }
   }
 `;
 
