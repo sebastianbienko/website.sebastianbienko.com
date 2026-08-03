@@ -98,39 +98,19 @@ export const SkillList = styled.ul`
   margin: 0;
   padding: 0;
   width: 100%;
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  column-gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
   row-gap: 0.5rem;
-  position: relative;
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    border-left: 1px dashed #000;
-    opacity: 0.65;
-  }
 `;
 
 export const SkillItem = styled.li`
-  text-align: right;
+  text-align: center;
   padding: 0.15rem 0;
   font-size: 0.8rem;
   line-height: 1.4rem;
   min-width: 0;
-
-  &:nth-child(even) {
-    text-align: left;
-    grid-column: 2;
-  }
-
-  &:nth-child(odd) {
-    grid-column: 1;
-  }
 `;
 
 export const SkillTerm = styled.span`
@@ -138,7 +118,10 @@ export const SkillTerm = styled.span`
   font-size: 0.8rem;
   line-height: 1.4rem;
   font-weight: 400;
-  padding: 0 0.2rem;
+  padding: 0.08rem 0.38rem;
+  background: #f7f7f7;
+  border: 1px dotted #000;
+  border-radius: 0.3rem;
   display: inline-block;
   max-width: 100%;
   overflow-wrap: anywhere;

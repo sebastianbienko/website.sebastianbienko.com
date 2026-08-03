@@ -16,8 +16,8 @@ const Skills = () => {
       <Root>
         <Tile
           icon={<RiCodeSSlashLine size="4em" />}
-          title="Software development"
-          subtitle="I like writing clean, robust and performant code, with a focus on backend development."
+          title="Data Engineer"
+          subtitle="Technologies I particularly like to work with"
           skills={backendDevelopmentSkillList}
         />
         <Tile
