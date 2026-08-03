@@ -44,3 +44,14 @@ export const SvgLogoContainer = styled.div`
   display: block;
   position: relative;
 `;
+
+export const Note = styled.p`
+  font-family: "Nunito";
+  font-size: 0.9rem;
+  line-height: 1.4;
+  font-weight: 300;
+  letter-spacing: 0.01rem;
+  margin: clamp(1.25rem, 1rem + 0.8vw, 2rem) auto 0 auto;
+  padding: 0 clamp(1rem, 3vw, 2.75rem);
+  max-width: 42rem;
+`;
