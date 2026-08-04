@@ -1,5 +1,5 @@
 import React from "react";
-import { RiCodeSSlashLine, RiPencilRuler2Line } from "react-icons/ri";
+import { RiCodeSSlashLine, RiFlowChart, RiDatabase2Fill } from "react-icons/ri";
 import {
   highPerformanceDataApisSkillList,
   operationalAndAnalyticalDatabasesSkillList,
@@ -16,19 +16,19 @@ const Skills = () => {
       </Intro>
       <Root>
         <Tile
-          icon={<RiCodeSSlashLine size="4em" />}
+          icon={<RiDatabase2Fill size="4em" />}
           title="Operational & Analytical Databases"
           subtitle="Storage engines and query layers for transactional and analytical workloads."
           skills={operationalAndAnalyticalDatabasesSkillList}
         />
         <Tile
-          icon={<RiPencilRuler2Line size="4em" />}
+          icon={<RiCodeSSlashLine size="4em" />}
           title="High-Performance Data APIs"
           subtitle="API and service patterns for low-latency, production-ready data access."
           skills={highPerformanceDataApisSkillList}
         />
         <Tile
-          icon={<RiCodeSSlashLine size="4em" />}
+          icon={<RiFlowChart size="4em" />}
           title="Streaming & Data Pipelines"
           subtitle="Realtime ingestion and delivery flows for event-driven platforms."
           skills={streamingAndDataPipelinesSkillList}

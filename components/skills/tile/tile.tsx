@@ -25,7 +25,7 @@ const Tile = (props: TileProps) => {
         <SkillList>
           {props.skills.map((entry, index: number) => (
             <SkillItem key={index}>
-              <SkillTerm>{entry.value}</SkillTerm>
+              <SkillTerm>{entry}</SkillTerm>
             </SkillItem>
           ))}
         </SkillList>
