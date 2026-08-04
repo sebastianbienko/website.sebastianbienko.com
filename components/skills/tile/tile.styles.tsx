@@ -56,7 +56,8 @@ export const Title = styled.h2`
   text-align: center;
   font-size: 1.5rem;
   font-family: "Nunito";
-  line-height: 1.2rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.01rem;
   justify-self: flex-start;
   padding: 0 1rem;
   margin-bottom: 1rem;

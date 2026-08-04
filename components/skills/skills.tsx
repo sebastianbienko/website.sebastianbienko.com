@@ -18,19 +18,19 @@ const Skills = () => {
         <Tile
           icon={<RiDatabase2Fill size="4em" />}
           title="Operational & Analytical Databases"
-          subtitle="Storage engines and query layers for transactional and analytical workloads."
+          subtitle="High-concurrency storage engines, schema design, and query optimization for transactional and analytical workloads."
           skills={operationalAndAnalyticalDatabasesSkillList}
         />
         <Tile
           icon={<RiCodeSSlashLine size="4em" />}
           title="High-Performance Data APIs"
-          subtitle="API and service patterns for low-latency, production-ready data access."
+          subtitle="Production-grade API patterns, gRPC/REST endpoints, and microservices engineered for low-latency data access."
           skills={highPerformanceDataApisSkillList}
         />
         <Tile
           icon={<RiFlowChart size="4em" />}
-          title="Streaming & Data Pipelines"
-          subtitle="Realtime ingestion and delivery flows for event-driven platforms."
+          title="Workflow Automation & Data Pipelines"
+          subtitle="Production orchestration and pipeline design connecting operational systems to analytical destinations."
           skills={streamingAndDataPipelinesSkillList}
         />
       </Root>

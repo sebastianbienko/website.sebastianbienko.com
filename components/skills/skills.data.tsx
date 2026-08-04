@@ -19,7 +19,7 @@ export const highPerformanceDataApisSkillList: string[] = [
 
 export const streamingAndDataPipelinesSkillList: string[] = [
   "Apache Airflow",
+  "ETL / ELT",
   "Apache Kafka",
   "Apache Flink",
-  "RAG",
 ];
