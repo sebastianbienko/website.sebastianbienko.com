@@ -119,7 +119,6 @@ export const SkillTerm = styled.span`
   line-height: 1.4rem;
   font-weight: 400;
   padding: 0.08rem 0.38rem;
-  background: #f7f7f7;
   border: 1px dotted #000;
   border-radius: 0.3rem;
   display: inline-block;
