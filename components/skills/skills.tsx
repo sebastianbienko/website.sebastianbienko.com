@@ -1,8 +1,9 @@
 import React from "react";
 import { RiCodeSSlashLine, RiPencilRuler2Line } from "react-icons/ri";
 import {
-  backendDevelopmentSkillList,
-  solutionArchitectureSkillList,
+  highPerformanceDataApisSkillList,
+  operationalAndAnalyticalDatabasesSkillList,
+  streamingAndDataPipelinesSkillList,
 } from "./skills.data";
 import { Intro, Root } from "./skills.styles";
 import Tile from "./tile/tile";
@@ -16,15 +17,21 @@ const Skills = () => {
       <Root>
         <Tile
           icon={<RiCodeSSlashLine size="4em" />}
-          title="Data Engineer"
-          subtitle="Technologies I particularly like to work with"
-          skills={backendDevelopmentSkillList}
+          title="Operational & Analytical Databases"
+          subtitle="Storage engines and query layers for transactional and analytical workloads."
+          skills={operationalAndAnalyticalDatabasesSkillList}
         />
         <Tile
           icon={<RiPencilRuler2Line size="4em" />}
-          title="System architecture"
-          subtitle="I like building well structured systems at scale."
-          skills={solutionArchitectureSkillList}
+          title="High-Performance Data APIs"
+          subtitle="API and service patterns for low-latency, production-ready data access."
+          skills={highPerformanceDataApisSkillList}
+        />
+        <Tile
+          icon={<RiCodeSSlashLine size="4em" />}
+          title="Streaming & Data Pipelines"
+          subtitle="Realtime ingestion and delivery flows for event-driven platforms."
+          skills={streamingAndDataPipelinesSkillList}
         />
       </Root>
     </>
